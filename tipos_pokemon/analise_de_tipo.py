@@ -128,7 +128,7 @@ if metodo == 2:
     maior_pontuacao = 100
 
 while pri < 18:
-    sec = 1
+    sec = pri + 1
     while sec < 19:
         pont_ind = 0
         pont_ind = sendTipos(pri, sec, metodo, pior)
